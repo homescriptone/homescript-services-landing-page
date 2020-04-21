@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<title>HomeScript Services</title>
+		<meta name="description" content="Des services intuitifs, pour le développement de votre entreprise.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Emmanuel ADEKPLOVI">
+
+        <!-- ================= Favicons ================== -->
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<link rel="shortcut icon" href="img/favicon-32x32.png">
+
+		<!-- ============== Resources style ============== -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+		<!-- Modernizr runs quickly on page load to detect features -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+
+
+	<body>
+
+		<!-- *** LOADING *** -->
+
+		<div id="loading">
+			<img src="img/logo.png" alt="" id="loading_img" class="img-fluid" />
+		</div>
+		
+		<!-- *** / LOADING *** -->
+
+		<!--Particles Container-->
+		<div id="jsi-particle-container" class="part_cont"></div>
+
+		<!--Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark info-color fade_entrance">
+
+			<div class="in-nav">
+
+			  <a class="brand-logo navbar-brand" href="#Home">
+			  	<img src="img/logo.png" alt="" class="img-fluid" />
+			  </a>
+
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon" data-toggled="opened-close">
+			      <span class="menu-icon-bar"></span>
+			      <span class="menu-icon-bar"></span>
+			      <span class="menu-icon-bar"></span>
+			    </span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+
+			  	<ul id="topMenu" class="navbar-nav ml-auto">
+
+					<li  >
+						<a href="index-particles-fr.html">FRENCH</a>
+					</li>
+
+					<li>
+						<a href="index.html">ENGLISH</a>
+					</li>
+
+				</ul>
+			  </div>
+			</div>
+		</nav>
+		<!--/.Navbar -->
+
+		<!-- *** Fullpage sections *** -->
+		<div id="fullpage">
+
+			<!-- +++ START - Home +++ -->
+			<div class="section" id="section0">
+
+				<section class="content-inside-section">
+
+					<div class="container-fluid">
+
+						<div class="container-inside">
+
+							<div class="main-content in_home_part">
+
+								<div class="home_info fade_entrance">
+									<!-- *** TEXT TITLE *** -->
+									<h1>
+										We are coming, get ready for the new unforgettable services.
+									</h1>
+
+									<!-- *** COUNTDOWN TITLE *** -->
+									<!-- Set your date at the bottom of js/jquery.countdown.js -->
+
+									<!-- <h1>
+										All-new,<br>
+										Ready for your project.<br>
+										Launch in <span id="getting-started"></span>
+									</h1> -->
+
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+			<!-- +++ END - Home +++ -->
+
+
+		</div>
+		<!-- +++ / Fullpage sections +++ -->
+
+		<button id="button-newsletter" class="light-btn old" aria-expanded="false">Subscribe now</button>
+
+		<footer class="fade_entrance">
+
+				<div class="footer-newsletter" data-name="news">
+
+					<div class="news_validated d-none">
+                		<i class="far fa-check-circle"></i>
+					  <h4>Thanks for signing up!</h4>
+					  <p>You’ll get the next updates directly into your inbox.</p>
+					</div>
+
+					<div class="news_error d-none">
+                		<i class="far fa-times-circle"></i>
+					  <h4>Oops!</h4>
+					  <p>Looks like something went wrong, please try again later.</p>
+					</div>
+
+					<!-- Newsletter Form -->
+					<div id="subscribe">
+
+		                <form id="newsletter-form"  data-parsley-validate="">
+
+		                    <div class="form-group">
+
+		                        <div class="controls">
+
+		                        	<h6>it's Time to subscribe</h6>
+
+		                        	<!-- E-mail -->
+		                        	<input type="email" class="form-control email" placeholder="Click & type your email here..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Click & type your email here...'" data-parsley-required-message="Your e-mail address is incorrect. Please check it and try again." id="newsletter" name="newsletter" data-parsley-trigger="change" required="">
+
+		                            <!-- Button -->
+		                            <button type="submit" id="get_notified" class="btn btn-lg submit">Sign up</button>
+
+		                        </div>
+		                    </div>
+		                </form>
+        			</div>
+        			<!-- /. Newsletter Form -->
+				</div>
+
+				<p class="copyright">MADE FOR YOU © HOMESCRIPT</p>
+		</footer>
+
+		<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+        <!-- ********** jQuery Resources ********** -->
+        <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+
+        <!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.easings.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+		<!-- Countdown plugin -->
+		<script src="js/jquery.countdown.js"></script>
+
+		<!-- FullPage plugin -->
+		<script src="js/jquery.fullPage.js"></script>
+
+        <!-- Particles plugin -->
+        <script src="js/particles.js"></script>
+
+        <!-- Form validation library -->
+		<script src="js/parsley.js"></script>
+
+		<!-- Works carousel -->
+		<script src="js/slick.js"></script>
+
+		<!-- Gallery plugin -->
+		<script src="js/jquery.detect_swipe.min.js"></script>
+		<script src="js/featherlight.js"></script> 
+		<script src="js/featherlight.gallery.js"></script>
+
+		<!-- Main JS File -->
+		<script src="js/main.js"></script>
+
+	</body>
+
+</html>
